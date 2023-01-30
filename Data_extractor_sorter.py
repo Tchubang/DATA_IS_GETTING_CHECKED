@@ -1,8 +1,9 @@
 import os
 
 word_to_search = "FN"
-file_name = "big.txt"
-output_file = "main.txt"
+file_name =input("Please put your contacts file name in which you are going to extract data (dont forget to add extention .txt) ") 
+output_file = input("Enter the name of output file (dont forget to add extention .txt) ")
+
 
 try:
     with open(file_name, "r") as f:
